@@ -30,7 +30,7 @@ public class printf {
 		System.out.println();
 		
 		boolean bool = true;
-		System.out.println("%b", bool);
+		System.out.printf("%b", bool);
 		
 	}
 
