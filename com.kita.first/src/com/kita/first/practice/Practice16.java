@@ -14,12 +14,12 @@ public class Practice16 {
 		boolean again = true;
 		do {
 			//메뉴뽑기		
-		int rNum = (int)(Math.random() *6) + 1;
+		int rNum = (int)(Math.random() *3) + 1;
 		
 		if(rNum == 1) {
 			menu = "피자";
 		} else if(rNum == 2) {
-			menu = "도넛";
+			menu = "수젭";
 		} else if(rNum == 3) {
 			menu = "연어";
 		} else if(rNum == 4) {
