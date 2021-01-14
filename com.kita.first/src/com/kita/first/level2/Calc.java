@@ -24,7 +24,7 @@ public class Calc {
 		int num3 = myCalc.multiply(3, 2);
 		System.out.println(num3);
 		
-		int num4 = myCalc.divide(3, 2);
+		double num4 = myCalc.divide(3, 2);
 		System.out.println(num4);
 	}
 	
