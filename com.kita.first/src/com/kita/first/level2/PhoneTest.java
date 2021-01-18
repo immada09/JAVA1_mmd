@@ -2,6 +2,7 @@ package com.kita.first.level2;
 
 public class PhoneTest {
 	public static void main(String[] args) {
+		/*
 		Phone myPhone = new Phone("갤럭시S21", "노란색", 300);
 		Phone yourPhone = new Phone("갤럭시 노트20", "빨간색", 250);
 		System.out.println(myPhone.name);
@@ -13,6 +14,23 @@ public class PhoneTest {
 		System.out.println(phone2.name);
 		System.out.println(phone2.color);
 		System.out.println(phone2.memory);
+*/
+		GalaxyPhone sNote20 = new GalaxyPhone("s노트20", "파란색", 300, "갤럭시");
+		sNote20.sendMsg("안녕");
+		System.out.println(sNote20.ai_secr);
+		
+		
+		
+		
+		
+		
+		
 	}
-
+	
+	
+	
+		
+		
+		
+		
 }
