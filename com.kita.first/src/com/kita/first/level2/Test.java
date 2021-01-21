@@ -16,6 +16,15 @@ public class Test {
 		System.out.println(car1Speed);
 		
 		
+		IMac myIMac = new IMac(500, "스페이스 그레이");
+		
+		myIMac.setmemory(800);
+		myIMac.setmemory(600);
+		
+		int mymemory = myIMac.getmemory();
+		System.out.println(mymemory);
+		
+		
 		
 	}
 }
