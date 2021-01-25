@@ -1,6 +1,6 @@
 package com.kita.first.level3;
 
-public class Animal {
+public class Animal extends Object {
 	Animal() {
 		super();
 	}

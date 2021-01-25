@@ -2,15 +2,15 @@ package com.kita.first.level3;
 
 public class Test {
 	public static void main(String[] args) {
-		ProGamer p1 = new ProGamer();
-		Game game = new Game();
-		p1.playGame(game);
-		
-		StardewVally mmd = new StardewVally();
-		p1.playGame(mmd);
-		
-		Lol lol = new Lol();
-		p1.playGame(lol);
+//		ProGamer p1 = new ProGamer();
+//		Game game = new Game();
+//		p1.playGame(game);
+//		
+//		StardewVally mmd = new StardewVally();
+//		p1.playGame(mmd);
+//		
+//		Lol lol = new Lol();
+//		p1.playGame(lol);
 		
 //		Animal animal = new Animal();
 //		Cat cat = new Cat();
@@ -22,6 +22,12 @@ public class Test {
 //		
 //		animal = new Dog();
 //		animal.crying();
+//		
+//		boolean resdult = animal instanceof Dog;
+//		System.out.println(result);
+//		
+//		Dog dog1 = (Dog)animal; //강제형변환
+//		dog1.barking();
 //		
 //		System.out.println(animal);
 //		System.out.println(cat);
