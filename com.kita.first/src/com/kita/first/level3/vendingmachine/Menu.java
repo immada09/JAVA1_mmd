@@ -36,20 +36,20 @@ public class Menu {
 	}
 	
 	//메뉴배열에 순차적으로 값 입력
-	void inputArrItems(String[] arr) {
+	void inputArrItems() {
 		Scanner scan = new Scanner(System.in);
-		for(int i =0;i<arr.length; i++) {
+		for(int i =0;i<menuArr.length; i++) {
 			System.out.printf("%d번째 값 입력 : ", i+1);
 			String str = scan.next();
-			arr[i] = str;
+			menuArr[i] = str;
 		}
 		scan.close();
 	}
 	
 	//가격배열에 순차적으로 값 입력
-	void inputArrprices(int[] arr) {
+	void inputArrPrices() {
 		Scanner scan = new Scanner(System.in);
-		for(int i =0;i<arr.length; i++) {
+		for(int i =0;i<priceArr.length; i++) {
 			System.out.printf("%d번째 값 입력 : ", i+1);
 			String str = scan.next();
 			int num = Utils.parseStrToInt(str);
@@ -58,7 +58,7 @@ public class Menu {
 			i--;
 			continue;
 			}
-			arr[i] = num;
+			priceArr[i] = num;
 		}
 		scan.close();
 	}
