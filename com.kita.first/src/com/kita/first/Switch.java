@@ -21,4 +21,6 @@ public class Switch {
 	}
 	
 		System.out.println("오늘의 메뉴는 %s 입니다.");
+
+	}
 }
