@@ -8,7 +8,11 @@ public class Baseball {
 	
 	//생성자
 	public Baseball(int gameCnt) {
-		this.rArr = new int[gameCnt];
+		init(gameCnt);
+	}
+
+	private void init(int gameCnt) {
+		rArr = new int[gameCnt];
 		setRandom();
 	}
 	
