@@ -1,1 +1,72 @@
+		Scanner scanner = new Scanner(System.in);
+		
+		int oman = 0;
+		int man = 0;
+		int chon = 0;
+		int obek = 0;
+		int bek = 0;
+		int oship = 0;
+		int ship = 0;
+		int ill = 0;
+		
+		System.out.println("Input money>>  ");
+		int money = scanner.nextInt();
+		
+		oman = money / 50000;
+		money %= 50000;
+		man = money / 10000;
+		money %= 10000;
+		chon = money / 1000;
+		money %= 1000;
+		obek = money / 500;
+		money %= 500;
+		bek = money / 100;
+		money %= 100;
+		oship = money / 50;
+		money %= 50;
+		ship = money / 10;
+		money %= 10;
+		ill = money;
+		
+		System.out.print(oman);
+		System.out.println(" 50,000won bill(s)");
+		System.out.print(man);
+		System.out.println(" 10,000won bill(s)");
+		System.out.print(chon);
+		System.out.println(" 1,000won bill(s)");
+		System.out.print(obek);
+		System.out.println(" 500won coin(s)");
+		System.out.print(bek);
+		System.out.println(" 100won coin(s)");
+		System.out.print(oship);
+		System.out.println(" 50won coin(s)");
+		System.out.print(ship);
+		System.out.println(" 10won coin(s)");
+		System.out.print(ill);
+		System.out.println(" 1won coin(s)");
+
+
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("Input 3 integer values>> ");
+		int side1 = scan.nextInt();
+		int side2 = scan.nextInt();
+		int side3 = scan.nextInt();
+
+		if (side1>side2+side3||side2>side1+side3||side3>side1+side2) {
+			System.out.println("No, this is NOT triangle.");
+		} else {
+			System.out.println("Yes, this is a triangle."); 
+			}
+      
+      
+    System.out.println("Input a equation>> ");
+		Scanner scan = new Scanner(System.in);
+		int num1 = scan.nextInt();
+		int sign = scan.nextInt();		
+		int num2 = scan.nextInt();
+		
+		int result;
+      
+      
 
